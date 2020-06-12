@@ -1,23 +1,23 @@
 import AVFoundation
 import UIKit
 
-class ScannerOverlayPreviewLayer: AVCaptureVideoPreviewLayer {
+public class ScannerOverlayPreviewLayer: AVCaptureVideoPreviewLayer {
 
     // MARK: - OverlayScannerPreviewLayer
 
-    var cornerLength: CGFloat = 30
+    public var cornerLength: CGFloat = 30
 
-    var lineWidth: CGFloat = 6
-    var lineColor: UIColor = .white
-    var lineCap: CAShapeLayerLineCap = .round
+    public var lineWidth: CGFloat = 6
+    public var lineColor: UIColor = .white
+    public var lineCap: CAShapeLayerLineCap = .round
 
-    var maskSize: CGSize = CGSize(width: 200, height: 200)
+    public var maskSize: CGSize = CGSize(width: 200, height: 200)
 
-    var rectOfInterest: CGRect {
+    public var rectOfInterest: CGRect {
         metadataOutputRectConverted(fromLayerRect: maskContainer)
     }
 
-    override var frame: CGRect {
+    public override var frame: CGRect {
         didSet {
             setNeedsDisplay()
         }
@@ -31,7 +31,7 @@ class ScannerOverlayPreviewLayer: AVCaptureVideoPreviewLayer {
 
     // MARK: - Drawing
 
-    override func draw(in ctx: CGContext) {
+    public override func draw(in ctx: CGContext) {
         super.draw(in: ctx)
 
         // MARK: - Background Mask
