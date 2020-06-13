@@ -2,6 +2,16 @@
 
 ScannerOverlay extends `AVCaptureVideoPreviewLayer` with an overlay. You can define a masked area and setup the corners. 
 
+<table>
+  <tbody>
+    <thead>
+      <tr>
+        <th><img src="https://user-images.githubusercontent.com/15332731/84567872-f3bc2d80-ad7b-11ea-97d0-6f6684383345.png" width="300" /></th>
+      </tr>
+    </thead>
+  </tbody>
+</table>
+
 ## Installation
 
 You can either install it via Swift Package Manager or copy the class from the Sources folder into your project.
