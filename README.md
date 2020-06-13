@@ -70,7 +70,7 @@ If you want to limit the video capturing to the masked area you have to set the 
       <td>Specifies the backgroundColor of the outer masked area</td>
     </tr>
     <tr>
-      <td>layer.cornerRadius</td>
+      <td>cornerRadius</td>
       <td>Specifies the corner radius of the masked area</td>
     </tr>
   </tbody>
