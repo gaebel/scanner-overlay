@@ -35,6 +35,8 @@ If you want to limit the video capturing to the masked area you have to set the 
 
 > Keep in mind that the overlay won't show in the simulator - for testing run the code on your device.
 
+For an example implementation refer to the demo project in the Sources folder.
+
 ## Settings
 
 <table>
