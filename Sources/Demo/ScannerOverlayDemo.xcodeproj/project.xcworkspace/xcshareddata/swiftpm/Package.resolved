@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ScannerOverlay",
+        "repositoryURL": "https://github.com/gaebel/scanner-overlay",
+        "state": {
+          "branch": null,
+          "revision": "d10c15944ffa738096a601480d7f778ae2ee31db",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
